@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/cook/cook",
+    "pages/headline/headline",
+    "pages/food/food",
+    "pages/message/message",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#999999",
+    "selectedColor": "#cc1004",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/cook/cook",
+        "text": "学做菜",
+        "iconPath": "pages/images/tab/cook-0.jpg",
+        "selectedIconPath": "pages/images/tab/cook-1.jpg"
+      },
+      {
+        "pagePath": "pages/headline/headline",
+        "text": "头条",
+        "iconPath": "pages/images/tab/headline-0.jpg",
+        "selectedIconPath": "pages/images/tab/headline-1.jpg"
+      }
+    ]
+  }
+}
