@@ -1,1 +1,39 @@
 /* pages/cook/cook.wxss */
+.nav{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+}
+
+.nav-item{
+    width: 25%;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.hr{
+    height: 15px;
+    background-color: #cccccc;
+    margin-top: 15px;
+    opacity: 0.2
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    font-size: 13px;
+    color: #999999;
+}
+
+.right{
+    position: absolute;
+    right: 10px;
+    color: #ccc;
+}
+
+.hr2{
+    height: 2px;
+    background-color: #ccc;
+    opacity: 0.2
+}
